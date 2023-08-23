@@ -1,0 +1,82 @@
+  body, html {
+            height: 90vh;
+            background-color: #f2f2f2;
+            background-image: url(imagesLogin/img2.jpg);
+            background-size: cover;
+        }
+  #quote{
+            font-family: 'Sansita Swashed', cursive;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+         }
+  .login-box {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 10px;
+            background-color:rgba(255, 255, 255, 0.26);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: -5;
+            text-align: center;
+
+        }
+        label {
+          display: inline;
+          margin-bottom: 2px;
+          font-weight: bold;
+
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+          width: 50%;
+          height: 5px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          margin-bottom: 15px;
+          font-family: 'Poppins', sans-serif;
+        }
+
+       .login-box a{
+            background-color:#f77d0a;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+       }
+
+
+       /* Responsive for mobile-----
+       @media (max-width: 768px) {
+        body, html {
+            background-image: none;
+            background-color: #f2f2f2;
+            height: auto;
+        }
+    
+        #quote {
+            font-size: 2em;
+            margin: 20px;
+        }
+    
+        .login-box {
+            width: 80%;
+            padding: 15px;
+            margin: 0 auto;
+            border: none;
+        }
+    
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+        }
+    }
+       */
